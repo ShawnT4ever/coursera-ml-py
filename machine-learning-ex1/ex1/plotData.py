@@ -13,5 +13,8 @@ def plot_data(x, y):
 
 
     # ===========================================================
-
+    plt.title("Scatter plot of training data")
+    plt.xlabel("Population of City in 10,000s")
+    plt.ylabel("Profit in $10,000s")
+    plt.plot(x, y, "ob", color = "red", marker='*')
     plt.show()
